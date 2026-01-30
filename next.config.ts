@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  serverExternalPackages: ['@opentelemetry/sdk-node', '@opentelemetry/exporter-jaeger'],
   images: {
     remotePatterns: [
       {
